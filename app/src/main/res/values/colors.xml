@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2699FB</color>
+    <color name="white_blue">#F1F9FF</color>
+    <color name="back_blue">#67B7FC</color>
+</resources>
+<!--앱에서 사용할 색-->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="옷장"
+        android:id="@+id/closet"
+        android:icon="@drawable/closet_icon"/>
+    <item android:title="기호"
+        android:id="@+id/machine"
+        android:icon="@drawable/machine_icon"/>
+    <item android:title="카메라"
+        android:id="@+id/camera"
+        android:icon="@drawable/camera_icon"/>
+    <item android:title="팁"
+        android:id="@+id/tips"
+        android:icon="@drawable/tips_icon"/>
+    <item android:title="바구니"
+        android:id="@+id/basket"
+        android:icon="@drawable/basket_icon"/>
+</menu>
+<!--아이콘 만들기 위한 페이지-->
