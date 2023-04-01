@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">워시요정</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon1_title">1번 기호</string>
+    <string name="icon2_title">2번 기호</string>
+    <string name="icon3_title">3번 기호</string>
+    <string name="icon4_title">4번 기호</string>
 </resources><!--앱 이름-->
