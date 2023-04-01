@@ -13,7 +13,7 @@ class Camera : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_closet, container, false)
+        return inflater.inflate(R.layout.fragment_camera, container, false)
     }
 
 }

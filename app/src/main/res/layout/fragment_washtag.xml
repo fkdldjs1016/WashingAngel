@@ -34,7 +34,7 @@
             android:id="@+id/scroll_view1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:layout_marginStart="43dp"
             android:layout_marginEnd="43dp"
             android:background="@drawable/rounded_corner">
@@ -105,32 +105,27 @@
             android:id="@+id/scroll_view2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:layout_marginStart="43dp"
             android:layout_marginEnd="43dp"
-            android:visibility="gone">
+            android:background="@drawable/rounded_corner">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp">
 
-                <!-- Add content for scroll_view2 here -->
-                <TableRow
+                <TableLayout
+                    android:id="@+id/table_layout2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp">
-
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp">
-
-                </TableRow>
+                    android:layout_height="1040dp">
 
 
+
+                </TableLayout>
             </LinearLayout>
         </ScrollView>
 
@@ -138,37 +133,27 @@
             android:id="@+id/scroll_view3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:layout_marginStart="43dp"
             android:layout_marginEnd="43dp"
-            android:visibility="gone">
+            android:background="@drawable/rounded_corner">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp">
 
-
-                <TableRow
+                <TableLayout
+                    android:id="@+id/table_layout3"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp">
+                    android:layout_height="1040dp">
 
-                </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp">
 
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp">
-                </TableRow>
-
+                </TableLayout>
             </LinearLayout>
         </ScrollView>
 
