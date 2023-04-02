@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
             when(it.itemId){
 
-                R.id.closet -> replaceFragment(WashTag())
-                R.id.machine -> replaceFragment(Closet())
+                R.id.machine -> replaceFragment(WashTag())
+                R.id.closet -> replaceFragment(Closet())
                 R.id.camera -> replaceFragment(Camera())
                 R.id.tips -> replaceFragment(Tips())
                 R.id.basket -> replaceFragment(Basket())

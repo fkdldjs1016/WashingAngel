@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clothes_array">
+        <item>니트</item>
+        <item>바람막이</item>
+        <item>가죽</item>
+    </string-array>
+</resources>
