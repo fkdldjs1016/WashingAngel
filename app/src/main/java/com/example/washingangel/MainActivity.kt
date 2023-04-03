@@ -26,13 +26,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
         binding.bottomNavigationView.setOnItemSelectedListener {
 
             when(it.itemId){
-
-                R.id.machine -> replaceFragment(WashTag())
-                R.id.closet -> replaceFragment(Closet())
-                R.id.camera -> replaceFragment(Camera())
-                R.id.tips -> replaceFragment(Tips())
-                R.id.basket -> replaceFragment(Basket())
-
+                R.id.machine -> {
+                    replaceFragment(WashTag())
+                    binding.toolbarTitle.text = getString(R.string.wash_tag_title)
+                }
+                R.id.closet -> {
+                    replaceFragment(Closet())
+                    binding.toolbarTitle.text = getString(R.string.closet_title)
+                }
+                R.id.camera -> {
+                    replaceFragment(Camera())
+                    binding.toolbarTitle.text = getString(R.string.camera_title)
+                }
+                R.id.tips -> {
+                    replaceFragment(Tips())
+                    binding.toolbarTitle.text = getString(R.string.tips_title)
+                }
+                R.id.basket -> {
+                    replaceFragment(Basket())
+                    binding.toolbarTitle.text = getString(R.string.basket_title)
+                }
                 else ->{
                 }
             }
@@ -52,8 +65,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
     override fun onClick(v: View?) {
         when(v?.id) {
-            R.id.setting_button -> replaceFragment(Setting())
-
+            R.id.setting_button -> {
+                replaceFragment(Setting())
+                binding.toolbarTitle.text = getString(R.string.setting_title)
+            }
         }
     }
 }

@@ -61,6 +61,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1번 옷"
+                                style="@style/CustomFontStyle"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
@@ -86,6 +87,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="2번 옷"
+                                style="@style/CustomFontStyle"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
@@ -111,6 +113,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="3번 옷"
+                                style="@style/CustomFontStyle"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 

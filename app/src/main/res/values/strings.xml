@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">워시요정</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="icon1_title">1번 기호</string>
     <string name="icon2_title">2번 기호</string>
     <string name="icon3_title">3번 기호</string>
     <string name="icon4_title">4번 기호</string>
+
+    <!-- 페이지 이름 -->
+    <string name="wash_tag_title">세탁 기호</string>
+    <string name="closet_title">옷장</string>
+    <string name="camera_title">카메라</string>
+    <string name="tips_title">세탁 꿀팁</string>
+    <string name="basket_title">바구니</string>
+    <string name="setting_title">설정</string>
 </resources><!--앱 이름-->
