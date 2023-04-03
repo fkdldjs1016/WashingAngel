@@ -49,20 +49,20 @@
 
                 <TableLayout
                     android:id="@+id/table_layout"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_gravity="center"
                     android:layout_height="1040dp">
 
                     <TableRow
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
                         android:layout_gravity="center">
 
                         <ImageButton
                             android:id="@+id/icon1"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_marginStart="5dp"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="6dp"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="@string/icon1_title"
@@ -70,8 +70,8 @@
 
                         <ImageButton
                             android:id="@+id/icon2"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="6dp"
                             android:layout_marginEnd="6dp"
                             android:backgroundTint="#00FFFFFF"
@@ -80,8 +80,8 @@
 
                         <ImageButton
                             android:id="@+id/icon3"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="6dp"
                             android:layout_marginEnd="6dp"
                             android:backgroundTint="#00FFFFFF"
@@ -90,10 +90,10 @@
 
                         <ImageButton
                             android:id="@+id/icon4"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="6dp"
-                            android:layout_marginEnd="5dp"
+                            android:layout_marginEnd="10dp"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="@null"
                             app:srcCompat="@drawable/wh_bleaching_not_allowed" />
