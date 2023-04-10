@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_blue"
+    android:background="@color/white"
     tools:context=".MainActivity">
-<!--중간 빈 페이지-->
+    <!--중간 빈 페이지-->
     <FrameLayout
-        android:id="@+id/frame_layout"
+        android:id="@+id/FrameLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
@@ -19,13 +18,18 @@
 
 
     </FrameLayout>
-<!--앱 툴바-->
+    <!--앱 툴바-->
+
+    <!--네비게이션바-->
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -33,43 +37,45 @@
             android:id="@+id/imageView"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            app:srcCompat="@drawable/camera_icon"
-            android:contentDescription="@null"/>
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/camera_icon" />
 
         <TextView
             android:id="@+id/toolbar_title"
+            style="@style/CustomFontStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="세탁 기호"
-            android:textSize="25sp"
-            android:textColor="@color/blue"
             android:layout_gravity="center"
-            style="@style/CustomFontStyle"/>
+            android:text="세탁 기호"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
             android:id="@+id/setting_button"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="end"
+            android:background="#00FFFFFF"
+            android:contentDescription="설정으로 들어가는 버튼입니다."
             android:padding="0dp"
             android:src="@drawable/setting"
-            android:layout_gravity="end"
-            android:contentDescription="@null"/>
+            tools:layout_editor_absoluteX="388dp"
+            tools:layout_editor_absoluteY="21dp"
+            tools:src="@drawable/setting_button" />
     </androidx.appcompat.widget.Toolbar>
 
-<!--네비게이션바-->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/blue"
-        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/bottom_selector"
 
+        app:itemTextColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemIconTint="@color/bottom_selector"
-        app:menu="@menu/bottom_nav"/>
+        app:menu="@menu/bottom_nav" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

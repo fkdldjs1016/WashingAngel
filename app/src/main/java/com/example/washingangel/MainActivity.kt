@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
         settingBtn.setOnClickListener(this)
 
-
         binding.bottomNavigationView.setOnItemSelectedListener {
 
             when(it.itemId){
@@ -58,7 +57,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.frame_layout,fragment)
+        fragmentTransaction.replace(R.id.FrameLayout,fragment)
         fragmentTransaction.commit()
 
     }
