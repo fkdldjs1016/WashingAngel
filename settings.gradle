@@ -10,7 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // kakao login
+        maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/'}
     }
 }
-rootProject.name = "WashingAngel"
+rootProject.name = "washingangel"
 include ':app'
